@@ -8,30 +8,6 @@ body {
   font-size: 16px;
   background: #fbf7f0;
 }
-#tambah-icon {
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  display: none;
-  justify-content: flex-end;
-  transform: translateY(100px);
-  z-index: 999;
-}
-#tambah-icon-open {
-  width: 60px;
-  height: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #232323;
-  text-decoration: none;
-  box-shadow: 1px 1px 10px #bdbdbd;
-  border-radius: 100%;
-  transform: translateY(-100px);
-  background: #968c83;
-  color: #fff;
-  margin: 20px;
-}
 nav {
   position: fixed;
   width: 100%;
@@ -145,44 +121,4 @@ nav {
   color: #232323;
   text-decoration: none;
   margin: 0 20px;
-}
-
-@media screen and ( max-width: 1024px ){
-  #add {
-    width: 300px;
-  }
-  #room-wrap {
-    margin: 100px 320px 20px 20px;
-  }
-}
-
-@media screen and ( max-width: 768px ){
-  body {
-    font-size: 15px;
-  }
-
-  #tambah-icon {
-    display: flex;
-  }
-  nav {
-    height: 70px;
-  }
-  #add {
-    display: none;
-    width: 100%;
-    height: 100%;
-  }
-  #add-wrap {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  #add.openAdd {
-    display: flex;
-  }
-  #room-wrap {
-    margin: 100px 20px 20px 20px;
-  }
-
 }
