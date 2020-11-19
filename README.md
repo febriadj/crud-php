@@ -1,2 +1,2 @@
 # crud-php
-Bikin program pengoperasian crud yang sederhana menggunakan bahasa pemrograman PHP dan database mysql
+Membuat program pengoperasian crud yang sangat sederhana menggunakan PHP dan database mysql
