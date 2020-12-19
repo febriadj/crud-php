@@ -32,7 +32,7 @@
   <nav>
     <div id="nav-wrap">
       <div class="nav-logo">
-        <a href>Whitecrow</a>
+        <a href>Logo Website</a>
       </div>
     </div>
   </nav>
@@ -57,15 +57,15 @@
   <div id="room">
     <div id="room-wrap">
 
-    <?php foreach($data as $d): ?>
+    <?php foreach($data as $da): ?>
       <div class="chat">
         <div class="chat-head">
-          <p><?php echo $d["nama"]; ?></p>
-          <p><?php echo $d["kelamin"]; ?></p>
+          <p><?php echo $da["nama"]; ?></p>
+          <p><?php echo $da["kelamin"]; ?></p>
         </div>
         <div class="chat-media">
-          <a href="https://instagram.com/<?php echo $d["instagram"] ?>"><i class="fab fa-instagram"></i></a>
-          <a href="https://api.whatsapp.com/send?phone=0<?php echo $d["whatsapp"] ?>"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://instagram.com/<?php echo $da["instagram"] ?>"><i class="fab fa-instagram"></i></a>
+          <a href="https://api.whatsapp.com/send?phone=0<?php echo $da["whatsapp"] ?>"><i class="fab fa-whatsapp"></i></a>
         </div>
       </div>
     <?php endforeach; ?>
